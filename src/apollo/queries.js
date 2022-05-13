@@ -1,6 +1,6 @@
-import { qql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
-export const GET_ALL_USERS = qql`
+export const GET_ALL_USERS = gql`
 query getAllUsers {
     users {
       ad,
@@ -12,7 +12,7 @@ query getAllUsers {
 }
 `;
 
-export const GET_USER = qql`
+export const GET_USER = gql`
 query getUser {
     user(id:"1") {
       ad,
