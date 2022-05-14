@@ -27,7 +27,7 @@ const User = ({ user }) => {
                         <p className='card-gorev'>{user.gorev}</p>
                         <p className='card-puan'>Puan: {user.puan}</p>
                         <div className='card-btn'>
-                            <button className='btn' onClick={handleClick}>+</button>
+                            <button data-testid="increment-button" className='btn' onClick={handleClick}>+</button>
                         </div>
                     </div>
                 </div>
