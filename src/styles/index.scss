@@ -12,12 +12,16 @@ a {
 }
 
 body {
-
     font-family: 'Roboto', sans-serif;
     background-color: antiquewhite;
 }
 
-
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 @import 'navbar.css';
 @import 'card-list.css';
+@import 'user-detail.css';
