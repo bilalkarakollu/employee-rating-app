@@ -23,7 +23,7 @@ const App = () => {
   if (loading) return <Loading/>;
   if (error) return <Error/>;
   if(data){
-    dispatch(setUser(data.users))
+    dispatch(setUser(data.users));
   }
   
   return (

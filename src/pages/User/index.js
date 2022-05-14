@@ -2,6 +2,7 @@ import React from 'react'
 import { GET_USER } from '../../apollo/queries';
 import { useQuery } from '@apollo/client';
 import { useParams } from 'react-router-dom';
+
 import Navbar from '../../components/Navbar';
 import Loading from '../../components/Loading';
 import Error from '../../components/Error';

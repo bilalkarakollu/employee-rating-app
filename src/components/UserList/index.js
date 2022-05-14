@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import User from '../User'
+import User from '../User';
 
 const UserList = ({ users }) => {
 
@@ -13,7 +13,7 @@ const UserList = ({ users }) => {
     )
 }
 
-export default UserList
+export default UserList;
 
 
 UserList.propTypes = {

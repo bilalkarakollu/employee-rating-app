@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 
 const User = ({ user }) => {
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     const handleClick = (e) => {
-        e.preventDefault()
-        dispatch(setPuan(user.id))
+        e.preventDefault();
+        dispatch(setPuan(user.id));
     }
 
     return (
@@ -36,7 +36,7 @@ const User = ({ user }) => {
     )
 }
 
-export default User
+export default User;
 
 User.propTypes = {
     user: PropTypes.object
