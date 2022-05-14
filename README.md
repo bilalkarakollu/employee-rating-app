@@ -2,6 +2,8 @@
 
 # [DEMO](https://employee-rating-app.vercel.app/)
 
+<br />
+
 <p dir="auto">
     <img align="left" width="50px" style="max-width: 100%;"
              src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
