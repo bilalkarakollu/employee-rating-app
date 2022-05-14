@@ -39,6 +39,5 @@ const User = ({ user }) => {
 export default User
 
 User.propTypes = {
-    user: PropTypes.object,
-    puanVer: PropTypes.func
+    user: PropTypes.object
 };
