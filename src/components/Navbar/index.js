@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { BsArrowLeft } from 'react-icons/bs'
 
 const Navbar = () => {
   let { pathname } = useLocation();
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      {pathname !== '/' && <div className='navbar-geri-btn'><button onClick={handleClick}> {`<-`} Geri</button></div>}
+      {pathname !== '/' && <div className='navbar-geri-btn'><button onClick={handleClick}> <BsArrowLeft/></button></div>}
       <Link to={'/'}>Personel Değerlendirme</Link>
     </div>
   )

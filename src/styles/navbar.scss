@@ -13,8 +13,8 @@
 
 .navbar-geri-btn {
     position: absolute;
-    left: 10px;
-    top: 5px;
+    left: 15px;
+    top: 15px;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -23,7 +23,10 @@
         border: none;
         background-color: #333;
         color: white;
-        font-weight: 500;
+        font-weight: 700;
+        font-size: x-large;
         cursor: pointer;
+        display: flex;
+        align-items: center;
     }
 }
