@@ -7,14 +7,15 @@ query getAllUsers {
       soyad,
       resim,
       gorev,
-      id
+      id,
+      puan
     } 
 }
 `;
 
 export const GET_USER = gql`
-query getUser {
-    user(id:"1") {
+query getUser($id: ID!) {
+    user(id:$id) {
       ad,
       soyad,
       resim,
