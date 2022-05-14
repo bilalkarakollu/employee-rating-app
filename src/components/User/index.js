@@ -9,7 +9,8 @@ const User = ({ user }) => {
 
     const dispatch = useDispatch()
 
-    const handleClick = () => {
+    const handleClick = (e) => {
+        e.preventDefault()
         dispatch(setPuan(user.id))
     }
 
@@ -21,13 +22,13 @@ const User = ({ user }) => {
                         <img src={user.resim} alt={user.ad} />
                     </div>
                     <div className='user-body'>
-                        <h3>{user.ad} {user.soyad}</h3>
+                        <h3 className='user-ad'>{user.ad} {user.soyad}</h3>
                         <p className='user-mail'>{user.mail}</p>
                         <p className='user-gorev'>{user.gorev}</p>
-                        <p className='user-gorev'>{user.puan}</p>
-                    </div>
-                    <div className='user-footer'>
-                        <button onClick={handleClick} className='user-oyla-btn'>+</button>
+                        <p className='user-puan'>Puan: {user.puan}</p>
+                        <div className='user-btn'>
+                            <button className='btn' onClick={handleClick}>+</button>
+                        </div>
                     </div>
                 </div>
             </Link>
