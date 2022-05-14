@@ -8,7 +8,7 @@ const Home = () => {
   const users = useSelector(state => state.users.users);
 
   return (
-    <div>
+    <div className='card-row'>
       <UserList users={users}/>
     </div>
   )
