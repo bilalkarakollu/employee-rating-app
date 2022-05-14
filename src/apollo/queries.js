@@ -8,7 +8,8 @@ query getAllUsers {
       resim,
       gorev,
       id,
-      puan
+      puan,
+      mail
     } 
 }
 `;
