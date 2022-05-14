@@ -8,7 +8,6 @@ import { GET_ALL_USERS } from './apollo/queries'
 
 import { useDispatch } from 'react-redux'
 import { setUser } from './features/userSlice';
-import Navbar from './components/Navbar';
 
 const App = () => {
   const dispatch = useDispatch()
@@ -22,7 +21,6 @@ const App = () => {
   
   return (
     <>
-    <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="user/:id" element={<User />} />

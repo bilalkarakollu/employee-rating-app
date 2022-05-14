@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import PropTypes from 'prop-types';
+import { useLocation, useNavigate } from 'react-router-dom'
 import { BsArrowLeft } from 'react-icons/bs'
 
-const Navbar = () => {
+const Navbar = ({title}) => {
   let { pathname } = useLocation();
   const navigate = useNavigate();
 
@@ -13,9 +14,14 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       {pathname !== '/' && <div className='navbar-geri-btn'><button onClick={handleClick}> <BsArrowLeft/></button></div>}
-      <Link to={'/'}>Personel Değerlendirme</Link>
+      {title}
     </div>
   )
 }
 
-export default Navbar
+export default Navbar;
+
+
+Navbar.propTypes = {
+  title: PropTypes.string
+};

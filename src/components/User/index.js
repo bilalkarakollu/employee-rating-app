@@ -18,15 +18,15 @@ const User = ({ user }) => {
         <li>
             <Link to={`/user/${user.id}`}>
                 <div className='user-card'>
-                    <div className='user-img'>
+                    <div className='card-img'>
                         <img src={user.resim} alt={user.ad} />
                     </div>
-                    <div className='user-body'>
-                        <h3 className='user-ad'>{user.ad} {user.soyad}</h3>
-                        <p className='user-mail'>{user.mail}</p>
-                        <p className='user-gorev'>{user.gorev}</p>
-                        <p className='user-puan'>Puan: {user.puan}</p>
-                        <div className='user-btn'>
+                    <div className='card-body'>
+                        <h3 className='card-ad'>{user.ad} {user.soyad}</h3>
+                        <p className='card-mail'>{user.mail}</p>
+                        <p className='card-gorev'>{user.gorev}</p>
+                        <p className='card-puan'>Puan: {user.puan}</p>
+                        <div className='card-btn'>
                             <button className='btn' onClick={handleClick}>+</button>
                         </div>
                     </div>
