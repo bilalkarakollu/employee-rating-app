@@ -23,6 +23,8 @@ query getUser($id: ID!) {
       gorev,
       mail,
       telefon,
+      address,
+      city
     } 
   }
 `;
