@@ -14,12 +14,12 @@
           justify-content: center;
 }
 
-.user-list {
+.card-list {
   margin: 2rem 0;
   padding: 0 10px;
 }
 
-.user-list ul {
+.card-list ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -52,7 +52,7 @@
           transform: scale(1.01);
 }
 
-.user-img {
+.card-img {
   height: 100px;
   max-width: 100px;
   width: 100%;
@@ -60,7 +60,7 @@
   overflow: hidden;
 }
 
-.user-img img {
+.card-img img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -69,7 +69,7 @@
      object-position: center;
 }
 
-.user-body {
+.card-body {
   -ms-flex-item-align: start;
       align-self: flex-start;
   display: -webkit-box;
@@ -85,7 +85,7 @@
   width: 100%;
 }
 
-.user-body .user-ad {
+.card-body .card-ad {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,22 +96,22 @@
   margin-bottom: 10px;
 }
 
-.user-body .user-mail {
+.card-body .card-mail {
   font-size: small;
   margin: 5px 0;
 }
 
-.user-body .user-gorev {
+.card-body .card-gorev {
   font-size: small;
   margin: 5px 0;
 }
 
-.user-body .user-puan {
+.card-body .card-puan {
   font-size: small;
   margin: 5px 0;
 }
 
-.user-btn {
+.card-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

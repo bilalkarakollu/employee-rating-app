@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.user-list {
+.card-list {
     margin: 2rem 0;
     padding: 0 10px;
 
@@ -37,7 +37,7 @@
     }
 }
 
-.user-img {
+.card-img {
     height: 100px;
     max-width: 100px;
     width: 100%;
@@ -52,7 +52,7 @@
     }
 }
 
-.user-body {
+.card-body {
     align-self: flex-start;
     display: flex;
     flex-direction: column;
@@ -60,30 +60,30 @@
     padding: 0 10px;
     width: 100%;
 
-    .user-ad {
+    .card-ad {
         display: flex;
         justify-content: center;
         font-size: 700;
         margin-bottom: 10px;
     }
 
-    .user-mail {
+    .card-mail {
         font-size: small;
         margin: 5px 0;
     }
 
-    .user-gorev {
+    .card-gorev {
         font-size: small;
         margin: 5px 0;
     }
 
-    .user-puan {
+    .card-puan {
         font-size: small;
         margin: 5px 0;
     }
 }
 
-.user-btn {
+.card-btn {
     display: flex;
     justify-content: center;
     width: 100%;
