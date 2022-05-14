@@ -47,6 +47,8 @@
 - React Testing Library
 - SASS
 - ES6
+- Eslint
+- Prettier
 
 ## Author
 
